@@ -24,7 +24,7 @@ import MeetingsAdvanced from "./pages/MeetingsAdvanced";
 function Router() {
   return (
     <Switch>
-      <Route path="" component={Landing} />
+      <Route path="/" component={Landing} />
       <Route path="/signup" component={SignUp} />
       <Route path="/signin" component={SignIn} />
       <Route path="/onboarding" component={Onboarding} />
